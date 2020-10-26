@@ -1,6 +1,7 @@
 window.onload = ()=>{
     let winWidth = document.body.clientWidth || document.documentElement.clientWidth || window.innerWidth;
     let winHeight = document.body.clientHeight || document.documentElement.clientHeight || window.innerHeight;
+    console.log(winWidth,winHeight);
     //禁止页面拖拽
     document.addEventListener("touchmove", function (e) {
     e.preventDefault();
